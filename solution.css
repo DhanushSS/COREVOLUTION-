@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@500&display=swap');
+
+
+p{
+   font-family: 'Josefin Sans',
+   sans-serif;
+   font-size: 2em;
+   padding: 100px;
+}
+.intro{
+margin-bottom: 100px;
+margin-top: -100px
+}
+.russiaa{
+   margin-left: 400px; 
+}
+.hands{
+    margin-left: 800px;
+}
+.namkeen{
+    margin-left: 800px;
+    margin-bottom: 100px;
+
+}
+.jr{
+    margin-left: 400px;
+}
+.nil{
+    margin-left: 600px;
+}
+#back li {
+
+    font-size: 2em;
+}
+
+#back {
+    margin-top: -100px;
+    margin-bottom: 1200px;
+}
+@media only screen and (max-width: 600px) {
+   
+    p{
+        padding: none;
+        font-size: 15px;
+    }
+    .intro {
+        margin-bottom: 100px;
+        margin-top: -100px
+    }
+
+    .russiaa {
+        margin-left: 0px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .hands {
+        margin-left: 60px;
+        margin-right: -20px;
+        height: 200px;
+        width: 200px;
+    }
+
+    .namkeen {
+        margin-left: 40px;
+        margin-right: -20px;
+        margin-bottom: 100px;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .jr {
+
+        height: 500px;
+        width: 500px;
+        margin-right: 200px;
+        margin-left: -50px;
+    }
+
+    .nil {
+        height: 200px;
+        width: 200px;
+        margin-left: 10px;
+    }
+}
